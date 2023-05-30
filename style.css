@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.menu-container {
+
+    color:rgb(4, 112, 112);
+    background-color: rgba(10, 84, 182, 0.151); /* my choice of color*/
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+
+
+}
+.menu {
+    border: 0px green;  /* ive chosen to make color blend with the background, i can also make it 0px */
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.links {
+    border: 0px green; /* ive chosen to make color blend with the background, i can also make it 0px */
+    display: flex;
+    justify-content: flex-end;
+}
+.login {
+    margin-left: 30px;
+}
+.header-container {
+    color:black;
+    background-color: rgb(134, 159, 167);
+    display: flex;
+    justify-content: center;
+}
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+.social, 
+.logo,
+.subscribe {
+    border: 0px solid #000000;
+}
